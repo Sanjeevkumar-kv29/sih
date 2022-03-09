@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089346301102",
+    "project_id": "sihproject-851ae",
+    "storage_bucket": "sihproject-851ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089346301102:android:ea6c87aa2ec10e6abf513f",
+        "android_client_info": {
+          "package_name": "com.example.sihapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089346301102-rougvgeo0f5csp3b5e6vchbe0hac21b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlz00u601MS-dXBRBM7U9kFWoeW00F0Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089346301102-rougvgeo0f5csp3b5e6vchbe0hac21b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

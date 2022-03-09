@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MonumentMainScreen">
+
+    <TextView
+        android:id="@+id/monname"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:textColor="@color/primary"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/moncost"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_below="@id/monname"
+        android:textColor="@color/primary"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Enter number of entries"
+        android:layout_weight="1"
+        android:layout_below="@id/monname"
+        android:textColor="@color/primary"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moncost"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+</RelativeLayout>
